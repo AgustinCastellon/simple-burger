@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Hamurguesa con Queso",
+        "price": 3500,
+        "category": "burger",
+        "description": "Medallon de carne de 120gr, queso chedar, salsa BBQ y pan de papa + Incluye papas y gaseosa (350ml)",
+        "image": "img-onionburger.avif"
+    },
+    {
+        "id": 2,
+        "name": "Hamburguesa Clasica",
+        "price": 3700,
+        "category": "burger",
+        "description": "Medallon de carne de 120gr, queso chedar, tomate, lechuga, cebolla, mayonesa casera y pan de papa + Incluye papas y gaseosa (350ml)",
+        "image": "img-piclesburger.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Hamburguesa Criolla",
+        "price": 3900,
+        "category": "burger",
+        "description": "Medallon de carne de 120gr, queso chedar, tomate, lechuga, cebolla y morron asado, pepinillos, mayonesa casera y pan de papa + Incluye papas y gaseosa (350ml)",
+        "image": "img-onionburger.avif"
+    },
+    {
+        "id": 4,
+        "name": "Hamburguesa Premium",
+        "price": 4000,
+        "category": "burger",
+        "description": "Medallon de carne de 150gr, queso chedar, queso rockefort, tomate, pepinillos, salsa premium y pan de papa + Incluye papas y gaseosa (350ml)",
+        "image": "img-piclesburger.jpg"
+    }
+]

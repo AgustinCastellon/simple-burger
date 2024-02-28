@@ -1,0 +1,242 @@
+*{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+body{
+    background-color: #f8f8ff;
+}
+
+.main-principal{
+    
+    background-image: url('/public/img/hamburguesa-slider.webp');
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+/*-------PRODUCTS-------*/
+.menu-comida{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-comida img{
+    margin: 15px 15px;
+    width: 530px;
+    height: 630px;
+    border: 2px solid #fbba00; 
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  .menu-comida img:hover {
+    transform: scale(1.05);
+  }
+
+.products-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%; 
+    margin: 0 auto; 
+}  
+
+.products-box a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.products-box img{
+    border: 2px solid #fbba00; 
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+    width: 530px;
+    height: 470px;
+}
+
+.menu-comida a:hover{
+    filter: brightness(70%);
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0; 
+}
+
+.articulo{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.articulo p{
+    width: 450px;
+}
+
+.precio{
+    align-self: flex-end;
+    padding-bottom: 5px;
+    
+}
+
+.descripcion-precio{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    height: 75px;
+    border-bottom: 2px solid black; 
+}
+
+.fa-dollar-sign{
+    color: #fbba00;
+    text-shadow:  1px 1px 0px black;
+    padding-right: 3px;
+}
+
+.button-conteiner{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+/*------- DETAIL-------*/
+
+.contenedor-producto{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    width: 60%;
+    gap: 30px;
+}
+
+.detalle-producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.alinear-precio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-producto img{
+        border: 2px solid #fbba00; 
+        border-radius: 10px; 
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        
+}
+
+.agregar-producto-button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: #f8f8ff;
+    color: black;
+    border: 2px solid black;
+    width: 175px;
+    height: 40px;
+}
+
+.agregar-producto-button:hover{
+    background-color: black;
+    color: white;
+    transition: .4s;
+}
+
+/*------- CREATE PRODUCT-------*/
+
+.create-form-conteiner{
+    display: flex;
+    justify-content: center;
+    border: solid .5px #fbba00 ;
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 55px 0;
+    background-color: white;
+    color: black;
+}
+
+.form-division{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    border-bottom: .5px solid #fbba00 ;
+    padding-bottom: 30px;
+    
+}
+
+.form-division select{
+    width: 30%;
+}
+
+.form-division textarea{
+    width: 550px;
+    height: 70px;
+    resize: none;
+}
+
+.form-label {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+.form-input {
+    font-weight: 400;
+    padding: 0 15px;
+    border-radius: 5px;
+    height: 35px;
+    width: 250px;
+  }
+
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+
+.create-form-conteiner h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
